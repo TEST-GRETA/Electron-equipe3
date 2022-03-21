@@ -9,7 +9,7 @@ export default function Ajout() {
         <div>
             <h1>AJOUTER UN UTILISATEUR</h1>
             <Link to ="/" className="link">Accueil</Link>
-            <form action="/datas/users.json" method="POST" className="ajoutForm">
+            <form  method="POST" className="ajoutForm">
                 <input type="text" name="name" className="inputAjout" placeholder="Nom"/>
             <br></br>
                 <input type="text" name="prenom" className="inputAjout" placeholder="Prénom"/>
