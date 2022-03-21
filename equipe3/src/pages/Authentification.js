@@ -3,7 +3,7 @@ import {Link} from "react-router-dom";
 
 export default function Authentification() {
     return (
-        <div className="container">
+        <div className="containerAth">
 
 <h1>AUTHENTIFICATION</h1>
 <br></br><br></br>

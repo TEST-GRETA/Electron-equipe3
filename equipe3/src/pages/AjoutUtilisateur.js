@@ -9,45 +9,24 @@ export default function Ajout() {
         <div>
             <h1>AJOUTER UN UTILISATEUR</h1>
             <Link to ="/" className="link">Accueil</Link>
-            <form action="/datas/users.json" method="POST" className="ajout">
-                <label>
-                Nom :
-                <input type="text" name="name" />
-                </label>
+            <form action="/datas/users.json" method="POST" className="ajoutForm">
+                <input type="text" name="name" className="inputAjout" placeholder="Nom"/>
             <br></br>
-                <label>
-                 Prenom :
-                <input type="text" name="prenom" />
-                </label>
+                <input type="text" name="prenom" className="inputAjout" placeholder="Prénom"/>
             <br></br>
-                <label>
-                Date de naissance :
-                <input type="text" name="birthDate" />
-                </label>
+                <input type="text" name="birthDate" className="inputAjout" placeholder="Date de naissance"/>
             <br></br>
-                <label>
-                Adresse :
-                <input type="text" name="adress" />
-                </label>
+                <input type="text" name="adress" className="inputAjout" placeholder="Adresse"/>
             <br></br>
-                <label>
-                Telephone :
-                <input type="text" name="phone" />
-                </label>
+                <input type="text" name="phone" className="inputAjout" placeholder="Téléphone"/>
             <br></br>
-                <label>
-                E-mail :
-                <input type="text" name="email" />
-                </label>
+                <input type="text" name="email" className="inputAjout" placeholder="Email"/>
             <br></br>
-                <label>
-                 N° de secu :
-                <input type="text" name="secu" />
-                </label>
+                <input type="text" name="secu" className="inputAjout" placeholder="Num de sécurité social"/>
             <br></br>
-            <input type="file" onchange="previewFile()"/>            
+            <input type="file" onchange="previewFile()" className="inputAjout"/>            
             <canvas id="preview-canvas"></canvas>                     
-            <input type="submit" value="Envoyer" />
+            <input type="submit" value="Envoyer" className="inputAjout"/>
             </form>
             
         </div>
