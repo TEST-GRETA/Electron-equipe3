@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+    
+*{
+  padding:0;
+  margin:0;
+}
+    
+    body { background: #333; 
+      color: white;
+    overflow: hidden; }
+
+
+
+.link{
+    color: rgb(255, 255, 255);
+    margin: 10px;
+}
+
+h1{
+  font-family: poppins;
+  font-weight: bold;
+}
+
+
+.container{
+  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.container form{
+  display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.intro_Page{
+  font-family: poppins;
+  font-size: 30px;
+  margin-left: -150px;
+  margin-bottom: 20px;
+
+}
+
+.authent input{
+  border: 2px solid #B848EE;
+border-radius: 65px;
+padding: 7px 7px 7px 20px;
+width: 250px;
+height: 40px;
+font-family: 14px;
+}
+
+.authent{
+
+  width: 350px;
+  height: 270px;
+  background: #FFFFFF;
+border: 6px solid #B848EE;
+border-radius: 61px;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: space-evenly;
+position: relative;
+
+}
+
+.authent::after{
+  content: "";
+  width: 232px;
+  height: 232px;
+  background-image: url(https://images2.imgbox.com/0c/1b/Y5MIfW1T_o.png);
+  position: absolute;
+  z-index: 999;
+  top: -182px;
+  right: -115px;
+  background-size: cover;
+}
+
+.authent input::placeholder{
+  color: lightgray;
+  font-family: Poppins;
+  font-weight:bold;
+  margin-left: 5px;
+
+}
+
+.container button {
+  background-color: #B848EE;
+  width: 221px;
+  height: 47px;
+  color: white;
+  border: none;
+  border-radius: 129px;
+  margin-top: 20px;
+  font-family: Poppins;
+  font-weight:bold;
+  letter-spacing: 2px;
+  position: relative;
+  cursor:pointer;
+  transition: all ease 1s;
+}
+
+.container button:hover {
+  background-color: #eed048;
+
+  
+}
+
+.bottom_svg{
+  position: absolute;
+  bottom: -20px;
+}
+

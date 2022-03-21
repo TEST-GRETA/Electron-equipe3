@@ -44,7 +44,7 @@ export default function Accueil() {
 
             {/* <Link to ="/authentification" className="link">Authentification</Link>
             <Link to ="/ajout" className="link">Ajouter</Link>
-            <Link to ="/modification" className="link">Accueil</Link> */}
-        </div>
+            <Link to ="/modification" className="link">Modification</Link>*/}
+            </div>
     );
   }
