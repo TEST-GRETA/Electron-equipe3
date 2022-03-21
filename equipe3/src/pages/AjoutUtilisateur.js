@@ -1,12 +1,15 @@
 import "../styles/app.css"
+import "../styles/ajout.css"
 import {Link} from "react-router-dom";
+
+
 
 export default function Ajout() {
     return (
         <div>
             <h1>AJOUTER UN UTILISATEUR</h1>
             <Link to ="/" className="link">Accueil</Link>
-            <form action="" method="POST">
+            <form action="/datas/users.json" method="POST" className="ajout">
                 <label>
                 Nom :
                 <input type="text" name="name" />
@@ -42,8 +45,11 @@ export default function Ajout() {
                 <input type="text" name="secu" />
                 </label>
             <br></br>
+            <input type="file" onchange="previewFile()"/>            
+            <canvas id="preview-canvas"></canvas>                     
             <input type="submit" value="Envoyer" />
             </form>
+            
         </div>
         
         
